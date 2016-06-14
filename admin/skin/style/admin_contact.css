@@ -1,0 +1,31 @@
+.contact-row .list-name{
+	font-size: 13px;
+}
+.contact-row .list-mail{
+	font-size: 12px;
+	color: #555;
+}
+.contact-row .list-title{
+	font-size: 13px;
+}
+.contact-row .list-content{
+	font-size: 12px;
+}
+.unread{
+	background: #f1f1f1;
+}
+.unread .list-name{
+	font-size: 13px;
+	font-weight: bold;
+}
+.unread .list-mail{
+	font-size: 12px;
+	color: #555;
+}
+.unread .list-title{
+	font-size: 13px;
+	font-weight: bold;
+}
+.unread .list-content{
+	font-size: 12px;
+}

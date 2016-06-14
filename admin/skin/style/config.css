@@ -1,0 +1,17 @@
+.x-config-input-wrap{
+	max-width: 800px;
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	min-height: 40px;
+}
+.x-config-input-wrap .config-title{
+	display: block;
+	margin: 0 auto;
+	line-height: 70px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}

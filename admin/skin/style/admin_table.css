@@ -1,0 +1,49 @@
+.table-label{
+	display: inline-block;
+}
+.dropdown-menu{
+	left: 0;
+	right: auto;
+	min-width: auto;
+	z-index: 99999;
+}
+.checkbox{
+	display: block;
+	margin: 0 auto;
+	width: 30px;
+}
+.object-avatar{
+	width: 40px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.box-title{
+	color: green !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
+	line-height: 30px !important;
+	margin: 5px !important;
+	display: inline-block !important;
+}
+.select-btn{
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+	display: inline-block !important;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.select-btn:hover{
+	background: #aaa;
+	color: white;
+}
+.table-bordered .act{
+	margin: 5px; display: inline-block;
+}
+.acp-table-padding-bottom{
+	padding-bottom: 50px;
+}

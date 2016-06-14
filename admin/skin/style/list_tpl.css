@@ -1,0 +1,17 @@
+.table .theader{
+	background: green;
+	border: none;
+}
+.act{
+	margin: 5px;
+	display: inline-block;
+}
+.pagename{
+	cursor: default;
+	color: #333;
+	font-weight: bold;
+}
+th{
+	padding-left: 10px;
+	color: white;
+}

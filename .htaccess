@@ -1,0 +1,13 @@
+Options -MultiViews
+
+RewriteEngine On
+
+Options -Indexes
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?xmtb_request_uri=$1 [QSA,L]

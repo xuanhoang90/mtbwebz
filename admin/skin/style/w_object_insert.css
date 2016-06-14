@@ -1,0 +1,161 @@
+#window-object-quickaccess{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	z-index: 9999;
+}
+.modal-title{
+	font-size: 20px;
+	font-weight: bold;
+	color: #444;
+}
+.contain-xw-object-list{
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	width: 98%;
+	padding: 0;
+	position: relative;
+}
+.contain-xw-object-list .ajax-fake-loading{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255,255,255,.5);
+	z-index: 9999;
+	display: none;
+}
+.contain-xw-object-list .ajax-fake-loading .loading{
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+}
+.contain-xw-object-list .ajax-fake-loading .loading p{
+	line-height: 20px;
+	font-size: 15px;
+	color: green;
+}
+.contain-xw-object-list .xw-object-list{
+	margin: 15px auto !important;
+	display: block;
+	clear: both;
+}
+.contain-xw-object-list .xw-object-list .w-object-header,
+.contain-xw-object-list .xw-object-list .w-object-body,
+.contain-xw-object-list .xw-object-list .w-object-footer{
+	margin: 5px auto;
+	display: block;
+	clear: both;
+}
+.contain-xw-object-list .xw-object-list .w-object-footer .pagination .active{
+	background: #555;
+	color: white;
+}
+.contain-xw-object-list .xw-object-list .w-object-header{
+	border-bottom: 1px solid #d4d4d4;
+	padding-bottom: 5px;
+}
+.contain-xw-object-list .xw-object-list .w-object-footer{
+	border-top: 1px solid #d4d4d4;
+	padding-top: 5px;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .contain-scroll{
+	max-height: 500px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item{
+	cursor: pointer;
+	margin: 2px auto !important;
+	background: white;
+	height: 40px;
+	overflow: hidden;
+	display: block;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item.selected{
+	background: #d4d4d4;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item.selected:hover{
+	background: #d4d4d4;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item p{
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+	display: block;
+	margin: 5px auto;
+	width: 95%;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item:hover{
+	background: #eee;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item-header-fix{
+	background: #333;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item-header-fix:hover{
+	background: #333;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item-header-fix p{
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+.contain-xw-object-list .xw-object-list .w-object-body .obj-item-directory p{
+	color: brown;
+}
+/*add menu item - post*/
+.menu-item-object-can-edit .tab-slaver{
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}
+.menu-item-object-can-edit .tab-slaver .thumb{
+	width: 95%;
+	display: block;
+	margin: 5px auto;
+}
+.menu-item-object-can-edit .tab-slaver .x-object-select-one{
+	margin-top: 15px;
+}
+.menu-item-object-can-edit .tab-slaver .tree-append-option .control-label{
+	font-weight: normal;
+	font-size: 14px;
+}
+.menu-item-object-can-edit .tab-slaver .form-group{
+	margin: 0!important;
+	padding: 0!important;
+}
+.menu-item-object-can-edit .tab-slaver .form-group .link,
+.menu-item-object-can-edit .tab-slaver .form-group .name{
+	border: none!important;
+	outline: none!important;
+	padding: 3px !important;
+	line-height: 20px !important;
+	height: 26px !important;
+	margin: 3px !important;
+	display: block;
+	padding: 0 5px !important;
+}
+.menu-item-object-can-edit .tab-slaver .form-group .name{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+.menu-item-object-can-edit .tab-slaver .form-group .link{
+	color: #777;
+	font-size: 12px;
+	font-style: italic;
+}
+.menu-item-object-can-edit .tab-slaver .form-group .link:hover,
+.menu-item-object-can-edit .tab-slaver .form-group .name:hover{
+	background: #f1f1f1;
+}
+.menu-item-object-can-edit .tab-slaver .form-group .link:focus,
+.menu-item-object-can-edit .tab-slaver .form-group .name:focus{
+	background: #99FFCC;
+}

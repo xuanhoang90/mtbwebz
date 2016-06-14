@@ -1,0 +1,90 @@
+.content{
+	width: 85%;
+	max-width: 1000px;
+	display: block;
+	margin: 10px auto;
+	padding: 0;
+}
+.block-content{
+	max-width: 100%;
+	overflow: hidden;
+	display: block;
+	margin: 5px 5px;
+}
+/*Admin pannel*/
+.admin-padding-top{
+	display: block;
+	height: 40px;
+	background: none;
+	width: 90%;
+	margin: 0 auto;
+}
+.admin-pan{
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background: #333;
+	z-index: 9999;
+}
+.admin-pan .init{
+	width: 85%;
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+	height: 40px;
+}
+.admin-pan .init .logo{
+	height: 30px;
+	margin: 5px;
+}
+.admin-pan .init .logo .acp{
+	line-height: 30px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.admin-pan .init .logo .acp:hover{
+	color: #f1f1f1;
+}
+.admin-pan .init .member{
+	height: 40px;
+	margin: 0;
+}
+.admin-pan .init .member .member-btn{
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.admin-edit-page{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 99999;
+}
+.admin-edit-page i{
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
+	width: 60px;
+	padding: 5px;
+	background: white;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	box-shadow: 0px 0px 5px green;
+	-webkit-box-shadow: 0px 0px 5px green;
+	-moz-box-shadow: 0px 0px 5px green;
+	-o-box-shadow: 0px 0px 5px green;
+}
+.admin-edit-page i:hover{
+	background: green;
+	color: white;
+}
