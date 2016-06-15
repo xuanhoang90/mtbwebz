@@ -14,4 +14,16 @@
 			
 			return $data;
 		}
+		public function LoadObjectData($id = false){
+			global $CMS, $DB;
+			$data = false;
+			if(intval($id)){
+				$query = $DB->prepare("SELECT * FROM ".DATABASE_PREFIX."object WHERE xid = ? AND object_type='post' AND status=1 AND delete=0");
+				$query->execute(array($id));
+				if($result = $query->fetchAll()){
+					$data = $result[0];
+				}
+			}
+			return $data;
+		}
 	}
